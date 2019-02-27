@@ -2,36 +2,6 @@
 
 #### 等等，还没完哦，陆续维护中............
 
-# BaseMvp
-
-新建activity继承BaseMvpAc,重写接口请求方法，示例：
-
-```JAVA
-public class LoginAc extends BaseMvpAc {
-
-    @BindView(R.id.btn_login)
-    Button btnLogin;
-
-    @Override
-    protected int getLayoutId() {
-        return R.layout.activity_main;
-    }
-
-    /**
-     * 初始化view
-     */
-    @Override
-    protected void initViews() {
-
-    }
-
-
-    @OnClick(R.id.btn_login)
-    public void onViewClicked() {
-        loginPresenter.login();
-    }
-
-    /**
 
 
 * [模仿微信拖拽放大缩小图片](#模仿微信拖拽放大缩小图片)
