@@ -27,12 +27,17 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation 'com.gyf.immersionbar:immersionbar:2.3.3-beta15'
-    implementation 'com.nineoldandroids:library:2.4.0'
 
     /*butterknife*/
     implementation 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 
     implementation 'com.github.bumptech.glide:glide:4.5.0'
+
+    /*drag view*/
+    implementation 'com.nineoldandroids:library:2.4.0'
+
+    /*combine view*/
+    implementation 'com.jakewharton:disklrucache:2.0.2'
 
 }

@@ -3,6 +3,7 @@
     package="com.zlx.lxviewlibs">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,7 @@
             android:name=".ui.drag_view.PhotoBrowseAc"
             android:theme="@style/FullScreenStyle" />
         <activity android:name=".ui.drag_view.DragViewAc" />
+        <activity android:name=".ui.combine_view.CombineAc" />
     </application>
 
 </manifest>

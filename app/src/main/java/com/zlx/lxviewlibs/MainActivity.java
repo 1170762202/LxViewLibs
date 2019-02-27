@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.zlx.lxviewlibs.ui.combine_view.CombineAc;
 import com.zlx.lxviewlibs.ui.drag_view.DragViewAc;
 
 import java.util.Arrays;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private ListView listView;
 
-    private List<String> list = Arrays.asList("模仿微信拖拽放大缩小图片");
+    private List<String> list = Arrays.asList("模仿微信拖拽放大缩小图片", "群聊头像组合");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch (position) {
             case 0:
                 open(DragViewAc.class);
+                break;
+            case 1:
+                open(CombineAc.class);
                 break;
         }
     }
