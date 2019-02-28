@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
 import com.gyf.barlibrary.ImmersionBar;
 import com.zlx.lxviewlibs.R;
 
@@ -51,7 +53,7 @@ public class DragViewAc extends AppCompatActivity {
     protected void initViews() {
         ImmersionBar.with(this).transparentStatusBar().init();
         setSharedElementCallback(this);
-        list.add("http://img4.duitang.com/uploads/item/201210/06/20121006120433_CZXuC.jpeg");
+        list.add("http://ww2.sinaimg.cn/large/6e00782dgw1etr3j0bmjeg20ca08848c.gif");
         list.add("http://69.171.66.103:8888/headImg/20190201/ea7f10bc7398596d475b1caa6f81099e.jpg");
         list.add("http://pic17.nipic.com/20111021/8633866_210108284151_2.jpg");
         imgList.add(img1);

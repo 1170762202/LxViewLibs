@@ -33,7 +33,7 @@ dependencies {
     implementation 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 
-    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
 
     /*drag view*/
     implementation 'com.nineoldandroids:library:2.4.0'

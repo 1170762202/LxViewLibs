@@ -5,21 +5,30 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <ImageView
-        android:id="@+id/img1"
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/img2"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
 
-    <ImageView
-        android:id="@+id/img3"
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
 
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+            <ImageView
+                android:id="@+id/img3"
 
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
