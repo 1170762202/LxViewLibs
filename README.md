@@ -5,11 +5,15 @@
 
 
 * [模仿微信拖拽放大缩小图片](#模仿微信拖拽放大缩小图片)
+* [圆形头像](#圆形头像)
 * [模仿微信群聊头像组合](#模仿微信群聊头像组合)
 * [CoordinatorLayout+Tablayout](#CoordinatorLayout)
 
 # 模仿微信拖拽放大缩小图片
 ![output1.gif](https://upload-images.jianshu.io/upload_images/4906229-d2d7c1290207cd11.gif?imageMogr2/auto-orient/strip)
+
+# 圆形头像
+![circleimg.png](https://upload-images.jianshu.io/upload_images/4906229-80f748c5a876507d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 模仿微信群聊头像组合
 ![output1.gif](https://upload-images.jianshu.io/upload_images/4906229-d058571b953b7ea8.gif?imageMogr2/auto-orient/strip)

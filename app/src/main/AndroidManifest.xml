@@ -25,6 +25,7 @@
         <activity android:name=".ui.drag_view.DragViewAc" />
         <activity android:name=".ui.combine_view.CombineAc" />
         <activity android:name=".ui.coordinator.CoordinatorAc" />
+        <activity android:name=".ui.circle_image_view.CircleImgAc" />
     </application>
 
 </manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.zlx.lxviewlibs.ui.circle_image_view.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/girl" />
+
+    <com.zlx.lxviewlibs.ui.circle_image_view.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/girl"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="4dp" />
+
+</LinearLayout>

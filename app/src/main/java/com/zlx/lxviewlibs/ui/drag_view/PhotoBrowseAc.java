@@ -22,6 +22,7 @@ import com.bumptech.glide.Glide;
 import com.zlx.lxviewlibs.R;
 import com.zlx.lxviewlibs.ui.drag_view.widget.BaseAnimCloseViewPager;
 import com.zlx.lxviewlibs.ui.drag_view.widget.ScaleViewPager;
+import com.zlx.lxviewlibs.ui.drag_view.widget.photoview.PhotoView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -121,7 +122,7 @@ public class PhotoBrowseAc extends AppCompatActivity {
                 View layout;
                 layout = LayoutInflater.from(PhotoBrowseAc.this).inflate(R.layout.layout_browse, null);
 //                layout.setOnClickListener(onClickListener);
-                ImageView sharedView = layout.findViewById(R.id.image_view);
+                PhotoView sharedView = layout.findViewById(R.id.image_view);
                 Glide.with(PhotoBrowseAc.this).load(pictureList.get(position)).into(sharedView);
                 container.addView(layout);
                 layout.setTag(position);
