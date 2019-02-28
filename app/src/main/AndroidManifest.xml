@@ -24,6 +24,7 @@
             android:theme="@style/FullScreenStyle" />
         <activity android:name=".ui.drag_view.DragViewAc" />
         <activity android:name=".ui.combine_view.CombineAc" />
+        <activity android:name=".ui.coordinator.CoordinatorAc" />
     </application>
 
 </manifest>
