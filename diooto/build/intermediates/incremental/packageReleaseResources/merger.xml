@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Projects3.3\LxViewLibs\diooto\src\main\res"/><source path="D:\Projects3.3\LxViewLibs\diooto\build\generated\res\rs\release"/><source path="D:\Projects3.3\LxViewLibs\diooto\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Projects3.3\LxViewLibs\diooto\src\main\res"><file name="activity_image" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\layout\activity_image.xml" qualifiers="" type="layout"/><file name="content_item" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\layout\content_item.xml" qualifiers="" type="layout"/><file name="fragment_image" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\layout\fragment_image.xml" qualifiers="" type="layout"/><file name="host_layout" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\layout\host_layout.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CircleIndicator">
+        <attr format="dimension" name="ci_width"/>
+        <attr format="dimension" name="ci_height"/>
+        <attr format="dimension" name="ci_margin"/>
+        <attr format="enum" name="ci_orientation">
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable></file><file path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="transparent">#00000000</color></file><file path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\values\ids.xml" qualifiers=""><item name="dr_photo_dio_viewpager_id" type="id"/><item name="dr_photo_dio_status_id" type="id"/><item name="dr_photo_dio_fake_status_id" type="id"/></file><file path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">DragDiooto</string></file><file path="D:\Projects3.3\LxViewLibs\diooto\src\main\res\values\styles.xml" qualifiers=""><style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style></file></source><source path="D:\Projects3.3\LxViewLibs\diooto\build\generated\res\rs\release"/><source path="D:\Projects3.3\LxViewLibs\diooto\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Projects3.3\LxViewLibs\diooto\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Projects3.3\LxViewLibs\diooto\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CircleIndicator">
+        <attr format="dimension" name="ci_width"/>
+        <attr format="dimension" name="ci_height"/>
+        <attr format="dimension" name="ci_margin"/>
+        <attr format="enum" name="ci_orientation">
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:2:5-33
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:13:22-73
+application
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:15:5-23:19
+	android:supportsRtl
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:16:9-35
+activity#net.moyokoo.diooto.ImageActivity
+ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:19:9-22:49
+	android:configChanges
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml:20:13-60
+uses-sdk
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		ADDED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects3.3\LxViewLibs\diooto\src\main\AndroidManifest.xml
