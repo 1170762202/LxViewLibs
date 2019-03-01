@@ -16,9 +16,9 @@
 
 #### 样式2：
 
-![output4.gif](https://upload-images.jianshu.io/upload_images/4906229-bf6b53a42651ebc9.gif?imageMogr2/auto-orient/strip)
+![output4.gif](https://upload-images.jianshu.io/upload_images/4906229-8cf43209f761aed5.gif?imageMogr2/auto-orient/strip)
 
-####总结：样式1能实现交互动画，但是图片不能放大缩小，考虑到事件冲突问题，于是便有了样式2：采用了第三方库[sketch]{https://github.com/panpf/sketch}
+#### 总结：样式1能实现交互动画，但是图片不能放大缩小，考虑到事件冲突问题，于是便有了样式2：采用了第三方库[sketch]{https://github.com/panpf/sketch}
 
 # 圆形头像
 ![circleimg.png](https://upload-images.jianshu.io/upload_images/4906229-80f748c5a876507d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
