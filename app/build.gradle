@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
 }
 
 dependencies {
@@ -26,7 +30,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.gyf.immersionbar:immersionbar:2.3.3-beta15'
+    implementation 'com.gyf.immersionbar:immersionbar:2.3.3'
     implementation 'com.android.support:design:28.0.0'
 
     /*butterknife*/
@@ -41,4 +45,12 @@ dependencies {
     /*combine view*/
     implementation 'com.jakewharton:disklrucache:2.0.2'
 
+    /*drag view 1*/
+    implementation project(path: ':diooto')
+    implementation 'me.panpf:sketch-gif:2.6.2-b1'
+    implementation 'me.panpf:sketch:2.6.2-b1'
+    implementation 'org.salient.artvideoplayer:artplayer-java:0.6.0'
+    implementation 'org.salient.artvideoplayer:artplayer-ui:0.6.0'
+    implementation 'org.salient.artvideoplayer:artplayer-ijk:0.6.0'
+    implementation "org.salient.artvideoplayer:artplayer-armv7a:0.6.0"
 }

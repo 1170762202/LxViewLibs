@@ -1,6 +1,7 @@
 package com.zlx.lxviewlibs.ui.drag_view;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,12 +10,16 @@ import android.support.v4.app.SharedElementCallback;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 import com.gyf.barlibrary.ImmersionBar;
 import com.zlx.lxviewlibs.R;
+
+import net.moyokoo.diooto.Diooto;
+import net.moyokoo.diooto.config.DiootoConfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +41,7 @@ public class DragViewAc extends AppCompatActivity {
     ImageView img2;
     @BindView(R.id.img3)
     ImageView img3;
+    private Context context;
 
     private ArrayList<String> list = new ArrayList<>();
 
@@ -46,6 +52,8 @@ public class DragViewAc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ac_drag_view);
         ButterKnife.bind(this);
+        context = this;
+
         initViews();
     }
 
@@ -55,7 +63,7 @@ public class DragViewAc extends AppCompatActivity {
         setSharedElementCallback(this);
         list.add("http://ww2.sinaimg.cn/large/6e00782dgw1etr3j0bmjeg20ca08848c.gif");
         list.add("http://69.171.66.103:8888/headImg/20190201/ea7f10bc7398596d475b1caa6f81099e.jpg");
-        list.add("http://pic17.nipic.com/20111021/8633866_210108284151_2.jpg");
+        list.add("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2097124721,3074829049&fm=27&gp=0.jpg");
         imgList.add(img1);
         imgList.add(img2);
         imgList.add(img3);

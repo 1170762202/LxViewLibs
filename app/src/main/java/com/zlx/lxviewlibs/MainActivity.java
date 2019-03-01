@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide;
 import com.zlx.lxviewlibs.ui.circle_image_view.CircleImgAc;
 import com.zlx.lxviewlibs.ui.combine_view.CombineAc;
 import com.zlx.lxviewlibs.ui.coordinator.CoordinatorAc;
+import com.zlx.lxviewlibs.ui.drag_view.DragMenuAc;
 import com.zlx.lxviewlibs.ui.drag_view.DragViewAc;
 
 import java.util.Arrays;
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
             case 0:
-                open(DragViewAc.class);
+                open(DragMenuAc.class);
                 break;
             case 1:
                 open(CombineAc.class);
