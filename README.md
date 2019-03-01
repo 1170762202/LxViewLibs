@@ -11,9 +11,13 @@
 
 # 模仿微信拖拽放大缩小图片
 ####样式1：
+
 ![output1.gif](https://upload-images.jianshu.io/upload_images/4906229-d2d7c1290207cd11.gif?imageMogr2/auto-orient/strip)
+
 ####样式2：
+
 ![output3.gif](https://upload-images.jianshu.io/upload_images/4906229-bf6b53a42651ebc9.gif?imageMogr2/auto-orient/strip)
+
 ####总结：样式1能实现交互动画，但是图片不能放大缩小，考虑到事件冲突问题，于是便有了样式2：采用了第三方库[sketch]{https://github.com/panpf/sketch}
 
 # 圆形头像
