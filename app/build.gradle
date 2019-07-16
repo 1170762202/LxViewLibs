@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.zlx.lxviewlibs"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -53,4 +53,8 @@ dependencies {
     implementation 'org.salient.artvideoplayer:artplayer-ui:0.6.0'
     implementation 'org.salient.artvideoplayer:artplayer-ijk:0.6.0'
     implementation "org.salient.artvideoplayer:artplayer-armv7a:0.6.0"
+
+    compile 'com.hyman:flowlayout-lib:1.1.2'
+
+    implementation 'com.github.dyguests:RingLayout:v1.1'
 }

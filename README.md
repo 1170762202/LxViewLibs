@@ -8,6 +8,7 @@
 * [圆形头像](#圆形头像)
 * [模仿微信群聊头像组合](#模仿微信群聊头像组合)
 * [CoordinatorLayout+Tablayout](#CoordinatorLayout)
+* [Carousel](#Carousel)
 
 # 模仿微信拖拽放大缩小图片
 #### 样式1：
@@ -29,6 +30,8 @@
 # CoordinatorLayout
 ![output2.gif](https://upload-images.jianshu.io/upload_images/4906229-3bc17e60c2531841.gif?imageMogr2/auto-orient/strip)
 
+# Carousel
+![output3.gif](https://upload-images.jianshu.io/upload_images/4906229-956f72da9546cd3d.gif?imageMogr2/auto-orient/strip)
 
 
 

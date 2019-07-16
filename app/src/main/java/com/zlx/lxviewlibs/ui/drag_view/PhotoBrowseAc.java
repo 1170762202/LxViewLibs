@@ -92,6 +92,7 @@ public class PhotoBrowseAc extends AppCompatActivity {
         });
     }
 
+
     private void setViewPagerAdapter() {
         adapter = new PagerAdapter() {
             @Override
@@ -178,7 +179,6 @@ public class PhotoBrowseAc extends AppCompatActivity {
             }
         });
     }
-
 
     View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override

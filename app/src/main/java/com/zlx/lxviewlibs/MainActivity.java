@@ -9,11 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.bumptech.glide.Glide;
+import com.zlx.lxviewlibs.ui.AddLabelAc;
 import com.zlx.lxviewlibs.ui.circle_image_view.CircleImgAc;
 import com.zlx.lxviewlibs.ui.combine_view.CombineAc;
 import com.zlx.lxviewlibs.ui.coordinator.CoordinatorAc;
 import com.zlx.lxviewlibs.ui.drag_view.DragMenuAc;
 import com.zlx.lxviewlibs.ui.drag_view.DragViewAc;
+import com.zlx.lxviewlibs.ui.rv_manager.carousel.CarouselAc;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private ListView listView;
 
-    private List<String> list = Arrays.asList("模仿微信拖拽放大缩小图片", "群聊头像组合","coordinator","圆形头像");
+    private List<String> list = Arrays.asList("模仿微信拖拽放大缩小图片", "群聊头像组合", "coordinator", "圆形头像", "模仿微信标签", "Carousel");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +54,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 3:
                 open(CircleImgAc.class);
+                break;
+            case 4:
+                open(AddLabelAc.class);
+                break;
+            case 5:
+                open(CarouselAc.class);
                 break;
         }
     }

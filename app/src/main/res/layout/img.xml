@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zlx.lxviewlibs.ui.circle_image_view.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/img_content"
+    android:layout_width="180dp"
+    android:layout_height="180dp">
+
+</com.zlx.lxviewlibs.ui.circle_image_view.CircleImageView>

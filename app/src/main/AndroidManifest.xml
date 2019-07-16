@@ -28,6 +28,8 @@
         <activity android:name=".ui.circle_image_view.CircleImgAc" />
         <activity android:name=".ui.drag_view.DragViewListAc" />
         <activity android:name=".ui.drag_view.DragMenuAc" />
+        <activity android:name=".ui.AddLabelAc" />
+        <activity android:name=".ui.rv_manager.carousel.CarouselAc" />
     </application>
 
 </manifest>

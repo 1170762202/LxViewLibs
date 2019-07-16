@@ -8,9 +8,12 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ImageView;
 
+import com.zlx.lxviewlibs.BaseRecycleAdapter;
 import com.zlx.lxviewlibs.R;
 import com.zlx.lxviewlibs.ui.combine_view.widget.CombineView;
 import com.zlx.lxviewlibs.ui.combine_view.widget.NiceImageView;
@@ -18,6 +21,9 @@ import com.zlx.lxviewlibs.ui.combine_view.widget.layout.DingLayoutManager;
 import com.zlx.lxviewlibs.ui.combine_view.widget.layout.WechatLayoutManager;
 import com.zlx.lxviewlibs.ui.combine_view.widget.listener.OnProgressListener;
 import com.zlx.lxviewlibs.ui.combine_view.widget.listener.OnSubItemClickListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -51,6 +57,8 @@ public class CombineAc extends AppCompatActivity {
     ImageView iv10;
     @BindView(R.id.iv11)
     ImageView iv11;
+    @BindView(R.id.recycler_view)
+    RecyclerView recyclerView;
 
     private String[] IMG_URL_ARR = {
             "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4015008175,1109648284&fm=27&gp=0.jpg",
@@ -72,34 +80,67 @@ public class CombineAc extends AppCompatActivity {
         String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE};
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             requestPermissions(perms, 1000);
-        }else {
+        } else {
             load();
         }
+
+
+        List<Demo> list = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            List<String> list1 = new ArrayList<>();
+            if (i % 2 == 0) {
+                list1.add(IMG_URL_ARR[0]);
+                list1.add(IMG_URL_ARR[1]);
+                list1.add(IMG_URL_ARR[2]);
+                list1.add(IMG_URL_ARR[3]);
+                list1.add(IMG_URL_ARR[4]);
+                list1.add(IMG_URL_ARR[5]);
+                list1.add(IMG_URL_ARR[6]);
+                list1.add(IMG_URL_ARR[7]);
+            } else if (i % 3 == 0) {
+                list1.add(IMG_URL_ARR[0]);
+                list1.add(IMG_URL_ARR[1]);
+                list1.add(IMG_URL_ARR[2]);
+            } else if (i % 5 == 0) {
+                list1.add(IMG_URL_ARR[2]);
+                list1.add(IMG_URL_ARR[3]);
+                list1.add(IMG_URL_ARR[4]);
+                list1.add(IMG_URL_ARR[5]);
+            }
+
+            Demo demo = new Demo();
+            demo.setList(list1);
+            list.add(demo);
+        }
+        AdapterImg adapterImg = new AdapterImg(list);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapterImg);
     }
 
-    private void load(){
-        loadDingBitmap(niceIv1, 2);
-
-        loadDingBitmap(niceIv2, 3);
-
-        loadDingBitmap(niceIv3, 4);
-
-        loadWechatBitmap(iv4, 2);
-
-        loadWechatBitmap(iv5, 3);
-
-        loadWechatBitmap(iv6, 4);
-
-        loadWechatBitmap(iv7, 5);
-
-        loadWechatBitmap(iv8, 6);
-
-        loadWechatBitmap(iv9, 7);
-
-        loadWechatBitmap(iv10, 8);
-
-        loadWechatBitmap(iv11, 9);
+    private void load() {
+//        loadDingBitmap(niceIv1, 2);
+//
+//        loadDingBitmap(niceIv2, 3);
+//
+//        loadDingBitmap(niceIv3, 4);
+//
+//        loadWechatBitmap(iv4, 1);
+//
+//        loadWechatBitmap(iv5, 3);
+//
+//        loadWechatBitmap(iv6, 4);
+//
+//        loadWechatBitmap(iv7, 5);
+//
+//        loadWechatBitmap(iv8, 6);
+//
+//        loadWechatBitmap(iv9, 7);
+//
+//        loadWechatBitmap(iv10, 8);
+//
+//        loadWechatBitmap(iv11, 9);
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -115,7 +156,7 @@ public class CombineAc extends AppCompatActivity {
                 .setSize(180)
                 .setGap(3)
                 .setGapColor(Color.parseColor("#E8E8E8"))
-                .setUrls(getUrls(count))
+                .setUrls("")
                 .setImageView(imageView)
                 .setOnSubItemClickListener(new OnSubItemClickListener() {
                     @Override
@@ -150,5 +191,55 @@ public class CombineAc extends AppCompatActivity {
                     }
                 })
                 .build();
+    }
+
+    private void loadDingBitmap(final ImageView imageView, String... urls) {
+        CombineView.init(this)
+                .setLayoutManager(new WechatLayoutManager())
+                .setSize(180)
+                .setGap(0)
+                .setUrls(urls)
+                .setOnProgressListener(new OnProgressListener() {
+                    @Override
+                    public void onStart() {
+
+                    }
+
+                    @Override
+                    public void onComplete(Bitmap bitmap) {
+                        imageView.setImageBitmap(bitmap);
+                    }
+                })
+                .build();
+    }
+
+    class AdapterImg extends BaseRecycleAdapter<Demo> {
+
+        public AdapterImg(List<Demo> datas) {
+            super(datas);
+        }
+
+        @Override
+        protected int getLayoutId() {
+            return R.layout.img;
+        }
+
+        @Override
+        protected void bindData(BaseViewHolder holder, Demo s, int position) {
+            List<String> list = s.getList();
+            loadDingBitmap(holder.getView(R.id.img_content), list.toArray(new String[list.size()]));
+        }
+    }
+
+    class Demo {
+        private List<String> list;
+
+        public List<String> getList() {
+            return list;
+        }
+
+        public void setList(List<String> list) {
+            this.list = list;
+        }
     }
 }

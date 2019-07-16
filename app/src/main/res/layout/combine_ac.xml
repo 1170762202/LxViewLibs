@@ -11,6 +11,11 @@
         android:background="#ffffff"
         android:gravity="center_horizontal"
         android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:nestedScrollingEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <com.zlx.lxviewlibs.ui.combine_view.widget.NiceImageView
             android:id="@+id/nice_iv1"
