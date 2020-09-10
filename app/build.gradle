@@ -57,4 +57,7 @@ dependencies {
     compile 'com.hyman:flowlayout-lib:1.1.2'
 
     implementation 'com.github.dyguests:RingLayout:v1.1'
+
+    implementation 'com.google.android.material:material:1.2.1'
+
 }
